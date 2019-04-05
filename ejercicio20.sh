@@ -6,6 +6,7 @@ indique si tiene permisos de ejecución.
 El script deberá verificar que se ha introducido algún parámetro, y en el
 caso de que se haya introducido, verificar antes de comprobar los
 permisos que el fichero existe.
+
 ENUNCIADO
 if [ $# -eq 0 ]
 then
