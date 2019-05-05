@@ -1,9 +1,5 @@
 #!/bin/bash
-cat << ENUNCIADO
-Ejercicio 15 Scripts.
-Crea un script que reciba como parámetro la ruta a un archivo o
-directorio y, si existe, que nos indique si es un archivo o un directorio.
-ENUNCIADO
+
 if [ $# -eq 1 ]
 then
   if [ -d $1 ]

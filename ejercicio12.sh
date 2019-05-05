@@ -1,10 +1,5 @@
 #!/bin/bash
-cat <<ENUNCIADO
-Ejercicio 12 Scripts.
-Repite el script del ejercicio 7, pero verificando que se le ha pasado un
-parámetro, e informando adecuadamente si el script no recibe al menos
-un parámetro.
-ENUNCIADO
+
 if [  $# -eq 1 ]
 then
 mkdir "$1"

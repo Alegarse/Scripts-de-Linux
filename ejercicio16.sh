@@ -1,10 +1,5 @@
 #!/bin/bash
-cat << ENUNCIADO
-Ejercicio 16 Scripts.
-Modifica el script del ejercicio 11, para que verifique si existe el
-directorio antes de crearlo. Si existe, simplemente debe mostrar un
-mensaje.
-ENUNCIADO
+
 if [ $# -eq 0 ]
 then
 echo "No has introducido ningún parámetro"

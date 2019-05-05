@@ -1,12 +1,5 @@
 #!/bin/bash
-cat << ENUNCIADO
-Ejercicio 17 Scripts.
-Modifica el script anterior, para que nos informe si la creación del
-directorio tuvo éxito o no. Aquí tienes varias posibilidades, una de ellas
-es poner el comando de creación en la propia condición del if (el if
-evaluará el exit code del comando). Otra posibilidad es intentar la
-creación primero y después comprobar el valor del exit code.
-ENUNCIADO
+
 if [ $# -eq 0 ]
 then
 echo "No has introducido ningún parámetro"

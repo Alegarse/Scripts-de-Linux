@@ -1,10 +1,5 @@
 #!/bin/bash
-cat << ENUNCIADO
-Ejercicio 14 Scripts.
-Crea un script que reciba como parámetro la ruta a un archivo o
-directorio, y nos informe si existe. Si el script no recibe un parámetro
-debe informar adecuadamente.
-ENUNCIADO
+
 
 if [ $# -eq 1 ]
 then

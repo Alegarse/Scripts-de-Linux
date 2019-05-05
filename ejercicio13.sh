@@ -1,14 +1,6 @@
 #!/bin/bash
 echo
-cat <<ENUNCIADO
-Ejercicio 13 Scripts.
-Script que crea un directorio y copia en el un fichero
-Debes dar el nombre del directorio a crear y el nombre del fichero a copiar.
-El primer parámetro será el nombre del directorio y su ruta.
-El segundo parámetro sera el archivo a copiar con su ruta.
-Gracias.
-ENUNCIADO
-echo
+
 if [ $# -eq 2 ]
 then
 echo "Nombre del directorio: $1"
